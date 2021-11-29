@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+    <link href="../css/contact.css" rel="stylesheet" type="text/css" />
+    <script src="../js/header.js" type="text/javascript" defer></script>
+    <script src="../js/footer.js" type="text/javascript" defer></script>
+    <title>Contacto</title>
+</head>
+<body>
+    <header-component></header-component>
+    <main>
+        <h1>CONTACTA CON NOSOTROS</h1>
+
+        <div class="container">
+            <form>
+          
+              <label for="name">Nombre</label>
+              <input type="text" id="name">
+          
+              <label for="mail">Correo electrónico</label>
+              <input type="text" id="mail">
+          
+              <label for="pais">¿Desde dónde nos escribes?</label>
+              <select id="pais" name="pais">
+                <option value="spain">España</option>
+                <option value="portugal">Portugal</option>
+                <option value="andorra">Andorra</option>
+                <option value="other">Otro</option>
+              </select>
+          
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="subject" placeholder="Escríbenos.." style="height:100px"></textarea>
+          
+              <input type="submit" value="Enviar">
+              <input type="reset" value="Borrar">
+
+            </form>
+          </div>
+    </main>
+    <footer-component></footer-component>
+</body>
+</html>
